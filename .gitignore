@@ -1,0 +1,8 @@
+**/_Debug/*
+**/AudioCache/*
+**/Compiled/*
+backup_acsprset.spr
+*.bak
+*.user
+_OpenInEditor.lock
+*.dmp
