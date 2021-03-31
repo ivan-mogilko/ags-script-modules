@@ -36,32 +36,34 @@
 #ifndef __OBJECTPOOL_MODULE__
 #define __OBJECTPOOL_MODULE__
 
-#define OBJECTPOOL_VERSION_00_01_00_00
+#define OBJECTPOOL_VERSION_00_01_00_01
 
 struct ObjectPool {
-    // Adds a range of IDs into the list. You can keep adding more later and all the previous
-    // ones will be kept unless you call RemoveObjects or RemoveAll.
+    /// Adds a range of IDs into the list. You can keep adding more later and all the previous
+    /// ones will be kept unless you call RemoveObjects or RemoveAll.
     import void AddObjects(int from, int to);
-    // Removes a range of IDs from the list.
+    /// Removes a range of IDs from the list.
     import void RemoveObjects(int from, int to);
-    // Removes all IDs.
+    /// Removes all IDs.
     import void RemoveAll();
 
-    // Gives next free ID and marks it as "used". Returns -1 if no more free IDs are available.
+    /// Gives next free ID and marks it as "used". Returns -1 if no more free IDs are available.
     import int  Acquire();
-    // Marks given ID as "free".
+    /// Marks given ID as "free".
     import void Release(int id);
-    // Marks all the known IDs as "free".
+    /// Marks all the known IDs as "free".
     import void ReleaseAll();
     
-    // Gets number of acquired ("used") IDs
+    /// Gets number of acquired ("used") IDs
     import int  GetAcquiredNum();
-    // Gets number of available free IDs
+    /// Gets number of available free IDs
     import int  GetFreeNum();
-    // Gets total number of registered IDs
+    /// Gets total number of registered IDs
     import int  GetTotalNum();
-    // Gets pool capacity (may include empty slots!). This is for test purposes only.
+#ifdef DEBUG
+    /// Gets pool capacity (may include empty slots!). This is for test purposes only.
     import int  GetPoolSize();
+#endif
 
     protected int _capacity;
     protected int _numUsed;
