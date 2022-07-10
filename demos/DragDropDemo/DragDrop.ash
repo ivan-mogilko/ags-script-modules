@@ -24,7 +24,7 @@
 #ifndef __MOUSE_DRAGDROP_MODULE__
 #define __MOUSE_DRAGDROP_MODULE__
 
-#define MOUSE_DRAGDROP_VERSION_00_01_00_00
+#define MOUSE_DRAGDROP_VERSION_00_01_01_00
 
 // Comment this line out to completely disable DragDrop during compilation
 #define ENABLE_MOUSE_DRAGDROP
@@ -96,6 +96,8 @@ struct DragDrop
   readonly import static attribute bool EvtWantDrop;
   /// Gets if the object was just dropped on a new position
   readonly import static attribute bool EvtDropped;
+  /// Gets if the object's hook was cancelled before dragging started.
+  readonly import static attribute bool EvtCancelled;
   
   
   ///////////////////////////////////////////////////////////////////////////

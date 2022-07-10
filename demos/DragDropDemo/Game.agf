@@ -58,9 +58,9 @@
       <HasMODMusic>False</HasMODMusic>
       <GameExplorerEnabled>False</GameExplorerEnabled>
       <Description />
-      <ReleaseDate>2007-08-19</ReleaseDate>
-      <Genre>Adventure</Genre>
-      <Version>1.0.0.0</Version>
+      <ReleaseDate>2022-08-19</ReleaseDate>
+      <Genre xml:space="preserve">Technical Demo</Genre>
+      <Version>1.0.1.0</Version>
       <WindowsExperienceIndex>1</WindowsExperienceIndex>
       <DeveloperName />
       <DeveloperURL />
@@ -1882,7 +1882,7 @@
         <Name>DragDrop</Name>
         <Description>Provides abstract drag-and-drop functionality</Description>
         <Author>Ivan Mogilko</Author>
-        <Version>1.0.0</Version>
+        <Version>1.1.0</Version>
         <Key>325858341</Key>
         <IsHeader>False</IsHeader>
       </Script>
@@ -1900,7 +1900,7 @@
         <Name>DragDropCommon</Name>
         <Description>Drag built-in AGS objects with mouse</Description>
         <Author>Ivan Mogilko</Author>
-        <Version>1.0.1</Version>
+        <Version>1.1.0</Version>
         <Key>659923182</Key>
         <IsHeader>False</IsHeader>
       </Script>

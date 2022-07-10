@@ -28,7 +28,7 @@
 #error DragDropCommon requires DragDrop module
 #endif
 
-#define MOUSE_DRAGDROPCOMMON_VERSION_00_01_00_01
+#define MOUSE_DRAGDROPCOMMON_VERSION_00_01_01_00
 
 // Comment this line out to completely disable DragDropCommon during compilation
 #define ENABLE_MOUSE_DRAGDROPCOMMON
