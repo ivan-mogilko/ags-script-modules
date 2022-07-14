@@ -60,7 +60,7 @@
       <Description />
       <ReleaseDate>2022-08-19</ReleaseDate>
       <Genre xml:space="preserve">Technical Demo</Genre>
-      <Version>1.0.1.0</Version>
+      <Version>1.1.1.0</Version>
       <WindowsExperienceIndex>1</WindowsExperienceIndex>
       <DeveloperName />
       <DeveloperURL />
@@ -1015,7 +1015,7 @@
         <HotspotY>0</HotspotY>
         <PlayerStartsWithItem>False</PlayerStartsWithItem>
         <CursorImage>0</CursorImage>
-        <Image>1</Image>
+        <Image>18</Image>
         <Description>Pencil</Description>
         <Name>iPencil</Name>
         <Properties />
@@ -1791,10 +1791,10 @@
           <Sprite Slot="12" Width="34" Height="12" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
           <Sprite Slot="13" Width="31" Height="30" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
           <Sprite Slot="14" Width="40" Height="25" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-          <Sprite Slot="1" Width="24" Height="24" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
           <Sprite Slot="15" Width="24" Height="24" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
           <Sprite Slot="16" Width="24" Height="24" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
           <Sprite Slot="17" Width="24" Height="24" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+          <Sprite Slot="18" Width="24" Height="24" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
         </Sprites>
       </SpriteFolder>
     </Sprites>
