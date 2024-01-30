@@ -1703,7 +1703,7 @@
         <Name>TypedText</Name>
         <Description>Module performs continious text typing over time, in typewriter style</Description>
         <Author>Ivan Mogilko</Author>
-        <Version>0.7.0</Version>
+        <Version>1.0.0</Version>
         <Key>990857917</Key>
         <IsHeader>False</IsHeader>
       </Script>
@@ -1721,7 +1721,7 @@
         <Name>TypedTextDrawing</Name>
         <Description>Module performs rendering of TypedText state to the provided DrawingSurface</Description>
         <Author>Ivan Mogilko</Author>
-        <Version>0.7.0</Version>
+        <Version>1.0.0</Version>
         <Key>1167863979</Key>
         <IsHeader>False</IsHeader>
       </Script>
@@ -1739,7 +1739,7 @@
         <Name>TypedTextHelper</Name>
         <Description>Collection of helper structs and functions for simplified TypedText usage</Description>
         <Author>Ivan Mogilko</Author>
-        <Version>0.7.0</Version>
+        <Version>1.0.0</Version>
         <Key>1687351331</Key>
         <IsHeader>False</IsHeader>
       </Script>
