@@ -2,7 +2,7 @@
 //
 // TERMS OF USE - TypedTextHelper MODULE
 //
-// Copyright (c) 2017-present Ivan Mogilko
+// Copyright (c) 2017-2024 Ivan Mogilko
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy of
 // this software and associated documentation files (the "Software"), to deal in
@@ -34,7 +34,7 @@
 #error TypedTextHelper requires TypedText module
 #endif
 
-#define TYPEDTEXTHELPER_VERSION_00_00_70_00
+#define TYPEDTEXTHELPER_VERSION_00_01_00_00
 
 #ifver 3.4.0
   #ifdef SCRIPT_COMPAT_v321
@@ -45,6 +45,8 @@
   #define TYPEDTEXTHELPER_USEOLDOVERLAY
 #endif
 
+/// This defines when to run typedtext updates:
+/// may be "repeatedly_execute", "repeatedly_execute_always" or "late_repeatedly_execute_always"
 #define TYPEDTEXTHELPER_UPDATEFUNCTION repeatedly_execute_always
 
 /// Maximal supported presets, per each kind
@@ -95,4 +97,4 @@ import int Typewriter(static Overlay, int x, int y, int width, int color, FontTy
 import int TypewriteOnOverlay(int x, int y, int width, int color, FontType font, String text, BlockingStyle bs = eBlock, int preset = 0);
 #endif // TYPEDTEXTHELPER_USEOLDOVERLAY
 
-#endif  // __TYPEDTEXTHELPER_MODULE__ (eof)
+#endif  // __TYPEDTEXTHELPER_MODULE__
