@@ -1882,7 +1882,7 @@
         <Name>DragDrop</Name>
         <Description>Provides abstract drag-and-drop functionality</Description>
         <Author>Ivan Mogilko</Author>
-        <Version>1.1.0</Version>
+        <Version>1.2.0</Version>
         <Key>325858341</Key>
         <IsHeader>False</IsHeader>
       </Script>
@@ -1900,7 +1900,7 @@
         <Name>DragDropCommon</Name>
         <Description>Drag built-in AGS objects with mouse</Description>
         <Author>Ivan Mogilko</Author>
-        <Version>1.1.0</Version>
+        <Version>1.2.0</Version>
         <Key>659923182</Key>
         <IsHeader>False</IsHeader>
       </Script>

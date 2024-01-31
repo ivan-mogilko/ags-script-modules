@@ -24,7 +24,7 @@
 #ifndef __MOUSE_DRAGDROP_MODULE__
 #define __MOUSE_DRAGDROP_MODULE__
 
-#define MOUSE_DRAGDROP_VERSION_00_01_01_00
+#define MOUSE_DRAGDROP_VERSION_00_01_02_00
 
 // Comment this line out to completely disable DragDrop during compilation
 #define ENABLE_MOUSE_DRAGDROP
@@ -60,13 +60,12 @@ struct DragDrop
   import static attribute eKeyCode    DefaultHookKey;
   /// Get/set default hook mouse button
   import static attribute MouseButton DefaultHookMouseButton;
-  /// Get/set minimal number of pixels the mouse should move before it is considered to be dragging
-  import static attribute int         DragMinDistance;
-  /// Get/set minimal time (in milliseconds) the mouse should move before it is considered to be dragging
-  import static attribute int         DragMinTime;
-  
   /// Get/set if the module should automatically track hook key press and release
   import static attribute bool        AutoTrackHookKey;
+  /// Get/set minimal number of pixels the mouse should move before it is considered to be dragging
+  import static attribute int         DragMinDistance;
+  /// Get/set minimal time (in milliseconds) the hook key should be pressed down before it is considered to be dragging
+  import static attribute int         DragMinTime;
   /// Get/set the default action that should be done to dragged object when the hook key is released;
   /// this action may be overriden by user by explicitly calling Drop() or Revert()
   import static attribute DragDropUnhookAction DefaultUnhookAction;
@@ -140,10 +139,10 @@ struct DragDrop
   
   /// Notify hook key push down; this does not have to be real keycode
   import static void  HookKeyDown(int user_key = 0, MouseButton mbtn = 0);
-  /// Assign a draggable object for the module when it expects to find one under the mouse cursor
-  import static void  HookObject(int user_mode, int obj_x, int obj_y, int tag = 0, String stag = 0);
   /// Notify hook key release
   import static void  HookKeyUp();
+  /// Assign a draggable object for the module when it expects to find one under the mouse cursor
+  import static void  HookObject(int user_mode, int obj_x, int obj_y, int tag = 0, String stag = 0);
   
   /// Drop the object now
   import static void  Drop();
