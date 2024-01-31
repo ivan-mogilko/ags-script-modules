@@ -24,7 +24,7 @@
 #ifndef __MOUSE_DRAGDROP_MODULE__
 #define __MOUSE_DRAGDROP_MODULE__
 
-#define MOUSE_DRAGDROP_VERSION_00_01_01_00
+#define MOUSE_DRAGDROP_VERSION_00_01_02_00
 
 // Comment this line out to completely disable DragDrop during compilation
 #define ENABLE_MOUSE_DRAGDROP

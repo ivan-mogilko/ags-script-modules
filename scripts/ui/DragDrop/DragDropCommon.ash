@@ -28,7 +28,7 @@
 #error DragDropCommon requires DragDrop module
 #endif
 
-#define MOUSE_DRAGDROPCOMMON_VERSION_00_01_01_00
+#define MOUSE_DRAGDROPCOMMON_VERSION_00_01_02_00
 
 // Comment this line out to completely disable DragDropCommon during compilation
 #define ENABLE_MOUSE_DRAGDROPCOMMON
@@ -48,12 +48,15 @@ enum DragDropCommonMode
 // DragDropCommonMove enumeration determines the way hooked object is being dragged around
 enum DragDropCommonMove
 {
-  // drag actual object itself (position updates real-time)
+  // drag actual object itself (position updates real-time);
+  // this works for everything except inventory items (because they do not have
+  // actual position on screen on their own)
   eDDCmnMoveSelf,
   // drag overlay with object's image, while object stays in place until drag ends;
-  // this currently works only for characters and room objects!
+  // this works for everything except GUI and controls
   eDDCmnMoveGhostOverlay, 
-  // drag GUI with object's image; this is currently only way to drag inventory items
+  // drag GUI with object's image;
+  // this works for everything except GUI and controls
   eDDCmnMoveGhostGUI
 };
 
@@ -82,6 +85,9 @@ struct DragDropCommon
   import static attribute DragDropCommonMove DragMove;
   /// Get/set the GUI used to represent dragged object
   import static attribute GUI*  GhostGUI;
+  /// Get/set the wanted z-order of a ghost representation (GUI or Overlay);
+  /// please note that Overlays can have ZOrder only since AGS 3.6.0.
+  import static attribute int   GhostZOrder;
   /// Get/set whether representation should keep sprite's alpha channel
   import static attribute bool  GhostAlpha;
   /// Get/set transparency of a representation used when DragStyle is NOT eDragDropMoveSelf
@@ -111,6 +117,8 @@ struct DragDropCommon
   readonly import static attribute int          ObjectWidth;
   /// Gets current dragged object's or its representation height
   readonly import static attribute int          ObjectHeight;
+  /// Gets current Overlay representing the dragged object (only if drag style is eDDCmnMoveGhostOverlay)
+  readonly import static attribute Overlay*     GhostOverlay;
   /// Gets current dragged overlay's graphic (only if drag style is NOT eDragDropMoveSelf)
   readonly import static attribute int          UsedGhostGraphic;
 
