@@ -1,0 +1,24 @@
+
+---
+
+Following are old notes copied over from an older local branch...
+These require re-investigation, as some may be obsolete, or not clear today.
+
+DD:
++ Dont create representation DDCommon until started to drag
++ if (!DragDrop.Enabled) -- need to test if reset if necessary, in case was disabled during drag
++ DragDropCommonMode -- need NONE?
+[DONE]+ eDDCmnMoveGhostOverlay ---- for 3.6.0 allow for GUIs and InvItems!
++ correct property/function description comments -- hooked vs dragged etc
+? consider merge DragMove + ModeEnabled? have different dragmoves per object type??? or no???
++ DragDropCommon.TryHookDraggableObject --- work regardless of MODES
++ DragDropCommon.Hook * functions --- work regardless of STATE
++ Methods to override drag start conditions (DragMinDistance, DragMinTime), a function StartDrag perhaps
++ !!!! DragDrop: allow to simulate mouse position too? as in - have abstract cursor position !!!!
+
+DragDropCommon extra:
++ expand the settings to allow more easier setup without direct use of DragDrop
+++ enable only in DragDropCommon? instead of DragDrop.Enabled.
+++ define events in DDCommon too? Will that be convenient?
+++ define the active drag and drop area(s)? a drop area for a particular object?
+
