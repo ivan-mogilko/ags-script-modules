@@ -1,1 +1,0 @@
-TypedText: fails to split lines if label's height is less than a font height

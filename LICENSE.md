@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2020-2021 Ivan Mogilko
+Copyright (c) 2016-2024 Ivan Mogilko
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
