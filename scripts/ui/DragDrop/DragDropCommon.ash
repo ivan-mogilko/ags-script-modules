@@ -66,28 +66,28 @@ struct DragDropCommon
   // Functions and properties meant to configure the drag'n'drop behavior.
   //
   ///////////////////////////////////////////////////////////////////////////
-  
+
   /// Get/set whether particular drag'n'drop mode is enabled
   import static attribute bool  ModeEnabled[];
   /// Disable drag'n'drop for all the modes
   import static void            DisableAllModes();
-  
+
   /// Get/set whether click on AGS object should be tested using pixel-perfect detection
   /// (alternatively only hit inside bounding rectangle is tested)
   import static attribute bool  PixelPerfect;
   /// Get/set whether only Clickable AGS objects should be draggable
   import static attribute bool  TestClickable;
-  
+
   /// Get/set the way object's drag around is represented
   import static attribute DragDropCommonMove DragMove;
-  /// Get/set transparency of a representation used when DragStyle is NOT eDragDropMoveSelf
-  import static attribute int   GhostTransparency;
-  /// Get/set whether representation should keep sprite's alpha channel
-  import static attribute bool  GhostAlpha;
   /// Get/set the GUI used to represent dragged object
   import static attribute GUI*  GhostGUI;
-  
-  
+  /// Get/set whether representation should keep sprite's alpha channel
+  import static attribute bool  GhostAlpha;
+  /// Get/set transparency of a representation used when DragStyle is NOT eDragDropMoveSelf
+  import static attribute int   GhostTransparency;
+
+
   ///////////////////////////////////////////////////////////////////////////
   //
   // State control
@@ -96,7 +96,7 @@ struct DragDropCommon
   // and control its state.
   //
   ///////////////////////////////////////////////////////////////////////////
-  
+
   /// Gets current dragged character
   readonly import static attribute Character*   _Character;
   /// Gets current dragged GUI
@@ -113,7 +113,7 @@ struct DragDropCommon
   readonly import static attribute int          ObjectHeight;
   /// Gets current dragged overlay's graphic (only if drag style is NOT eDragDropMoveSelf)
   readonly import static attribute int          UsedGhostGraphic;
-  
+
   /// Start dragging a character under cursor
   import static bool  TryHookCharacter();
   /// Start dragging a GUI under cursor
