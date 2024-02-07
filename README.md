@@ -15,12 +15,12 @@ All scripts are free to use and released under [MIT License](LICENSE.md).
 ### List of modules:
 
 **DoubleClick** - handles double mouse clicks in games (AGS does not support that itself).<br>
-* Code: https://github.com/ivan-mogilko/ags-script-modules/tree/master/scripts/ui/DoubleClick
+* Code: https://github.com/ivan-mogilko/ags-script-modules/tree/master/scripts/controls/DoubleClick
 * Latest release: https://github.com/ivan-mogilko/ags-script-modules/releases/tag/initial
 * Forum thread: https://www.adventuregamestudio.co.uk/forums/modules-plugins-tools/module-doubleclick-keylistener-detect-double-clicks-and-more/
 
 **DragDrop** - lets drag objects around in your game.<br>
-* Code: https://github.com/ivan-mogilko/ags-script-modules/tree/master/scripts/ui/DragDrop
+* Code: https://github.com/ivan-mogilko/ags-script-modules/tree/master/scripts/controls/DragDrop
 * Demo game: https://github.com/ivan-mogilko/ags-script-modules/tree/master/demos/DragDropDemo
 * Latest release: https://github.com/ivan-mogilko/ags-script-modules/releases/tag/dragdropcommon-1.2.0
 * Documentation: https://github.com/ivan-mogilko/ags-script-modules/wiki/Drag-&-Drop-module
@@ -28,7 +28,7 @@ All scripts are free to use and released under [MIT License](LICENSE.md).
 
 **KeyListener** - records key and mouse button state changes and sequences.<br>
 This module was not tested much, and its practical usefulness is frankly not clear.<br>
-* Code: https://github.com/ivan-mogilko/ags-script-modules/tree/master/scripts/ui/KeyListener
+* Code: https://github.com/ivan-mogilko/ags-script-modules/tree/master/scripts/controls/KeyListener
 * Latest release: https://github.com/ivan-mogilko/ags-script-modules/releases/tag/initial
 * Forum thread: https://www.adventuregamestudio.co.uk/forums/modules-plugins-tools/module-doubleclick-keylistener-detect-double-clicks-and-more/
 
