@@ -2,7 +2,7 @@
 //
 // TERMS OF USE - KeyListener MODULE
 //
-// Copyright (c) 2016-2024 Ivan Mogilko
+// Copyright (c) 2016-2025 Ivan Mogilko
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy of
 // this software and associated documentation files (the "Software"), to deal in
@@ -24,7 +24,7 @@
 #ifndef __KEY_LISTENER_MODULE__
 #define __KEY_LISTENER_MODULE__
 
-#define KEY_LISTENER_VERSION_00_00_09_07
+#define KEY_LISTENER_VERSION_00_01_00_00
 
 // Comment this line out to completely disable KeyListener during compilation
 #define ENABLE_KEY_LISTENER
