@@ -2,7 +2,7 @@
 //
 // TERMS OF USE - TypedText MODULE
 //
-// Copyright (c) 2017-2024 Ivan Mogilko
+// Copyright (c) 2017-2025 Ivan Mogilko
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy of
 // this software and associated documentation files (the "Software"), to deal in
@@ -41,7 +41,7 @@
 #ifndef __TYPEDTEXT_MODULE__
 #define __TYPEDTEXT_MODULE__
 
-#define TYPEDTEXT_VERSION_00_01_00_00
+#define TYPEDTEXT_VERSION_00_01_01_00
 
 /// Maximal allowed random sounds
 /// ( because pre-3.4.0 AGS does not support dynamic arrays in structs... :-( )
