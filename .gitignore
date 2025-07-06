@@ -6,3 +6,4 @@ backup_acsprset.spr
 *.user
 _OpenInEditor.lock
 *.dmp
+/demos/Modules-ags4/*.crm
