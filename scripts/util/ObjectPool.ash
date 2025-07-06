@@ -2,7 +2,7 @@
 //
 // TERMS OF USE - ObjectPool MODULE
 //
-// Copyright (c) 2020-2024 Ivan Mogilko
+// Copyright (c) 2020-2025 Ivan Mogilko
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy of
 // this software and associated documentation files (the "Software"), to deal in
@@ -36,7 +36,7 @@
 #ifndef __OBJECTPOOL_MODULE__
 #define __OBJECTPOOL_MODULE__
 
-#define OBJECTPOOL_VERSION_00_01_00_01
+#define OBJECTPOOL_VERSION_00_01_00_02
 
 struct ObjectPool {
     /// Adds a range of IDs into the list. You can keep adding more later and all the previous
@@ -67,8 +67,8 @@ struct ObjectPool {
 
     protected int _capacity;
     protected int _numUsed;
-    protected bool _usingObj[];
-    protected bool _isFree[];
+    protected int _usingObj[];
+    protected int _isFree[];
     protected int _freeObj[];
     protected int _numFreeObj;
 };
