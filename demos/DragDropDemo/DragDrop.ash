@@ -2,7 +2,7 @@
 //
 // TERMS OF USE - DragDrop MODULE
 //
-// Copyright (c) 2016-2024 Ivan Mogilko
+// Copyright (c) 2016-2025 Ivan Mogilko
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy of
 // this software and associated documentation files (the "Software"), to deal in
@@ -24,7 +24,7 @@
 #ifndef __MOUSE_DRAGDROP_MODULE__
 #define __MOUSE_DRAGDROP_MODULE__
 
-#define MOUSE_DRAGDROP_VERSION_00_01_02_00
+#define MOUSE_DRAGDROP_VERSION_00_01_03_00
 
 // Comment this line out to completely disable DragDrop during compilation
 #define ENABLE_MOUSE_DRAGDROP
@@ -119,7 +119,7 @@ struct DragDrop
   /// Gets the current drag mouse button
   readonly import static attribute MouseButton  CurrentMouseButton;
   /// Gets the current drag mode (this hints the type of object being dragged)
-  readonly import static attribute int          CurrentMode;
+  readonly import static attribute DragDropMode CurrentMode;
   /// Gets the user-defined dragged object integer tag
   readonly import static attribute int          ObjectTag;
   /// Gets the user-defined dragged object String tag
