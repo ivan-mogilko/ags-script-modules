@@ -2,7 +2,7 @@
 //
 // TERMS OF USE - DoubleClick MODULE
 //
-// Copyright (c) 2018-2024 Ivan Mogilko
+// Copyright (c) 2018-2025 Ivan Mogilko
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy of
 // this software and associated documentation files (the "Software"), to deal in
@@ -24,7 +24,7 @@
 #ifndef __DOUBLECLICK_MODULE__
 #define __DOUBLECLICK_MODULE__
 
-#define DOUBLECLICK_VERSION_00_01_00_00
+#define DOUBLECLICK_VERSION_00_01_01_00
 
 
 // A maximal time passed between two clicks while they are still considered a sequence
