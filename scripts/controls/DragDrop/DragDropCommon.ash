@@ -2,7 +2,7 @@
 //
 // TERMS OF USE - DragDropCommon MODULE
 //
-// Copyright (c) 2016-2024 Ivan Mogilko
+// Copyright (c) 2016-2025 Ivan Mogilko
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy of
 // this software and associated documentation files (the "Software"), to deal in
@@ -28,7 +28,7 @@
 #error DragDropCommon requires DragDrop module
 #endif
 
-#define MOUSE_DRAGDROPCOMMON_VERSION_00_01_02_00
+#define MOUSE_DRAGDROPCOMMON_VERSION_00_01_03_00
 
 // Comment this line out to completely disable DragDropCommon during compilation
 #define ENABLE_MOUSE_DRAGDROPCOMMON
