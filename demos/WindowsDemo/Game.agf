@@ -692,7 +692,7 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>10</Height>
+                <Height>13</Height>
                 <ID>0</ID>
                 <Image>0</Image>
                 <Left>4</Left>
@@ -710,9 +710,121 @@
                 <Top>4</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>190</Width>
+                <Width>191</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>0</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>14</Height>
+                <ID>1</ID>
+                <Image>0</Image>
+                <Left>4</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button4</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">Anchor Left</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>45</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>78</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>1</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>14</Height>
+                <ID>2</ID>
+                <Image>0</Image>
+                <Left>118</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button5</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">Anchor Right</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>45</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>78</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>2</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>14</Height>
+                <ID>3</ID>
+                <Image>0</Image>
+                <Left>58</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button6</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">Anchor Top</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>23</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>78</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>3</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>14</Height>
+                <ID>4</ID>
+                <Image>0</Image>
+                <Left>58</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button7</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">Anchor Bottom</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>74</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>78</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>4</ZOrder>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -743,7 +855,7 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>10</Height>
+                <Height>13</Height>
                 <ID>0</ID>
                 <Image>0</Image>
                 <Left>4</Left>
@@ -761,7 +873,7 @@
                 <Top>4</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>90</Width>
+                <Width>92</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>0</ZOrder>
               </GUIButton>
@@ -794,7 +906,7 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>10</Height>
+                <Height>12</Height>
                 <ID>0</ID>
                 <Image>0</Image>
                 <Left>4</Left>
@@ -816,6 +928,28 @@
                 <WrapText>False</WrapText>
                 <ZOrder>0</ZOrder>
               </GUIButton>
+              <GUIListBox>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>89</Height>
+                <ID>1</ID>
+                <Left>4</Left>
+                <Locked>False</Locked>
+                <Name>ListBox1</Name>
+                <OnSelectionChanged />
+                <SelectedBackgroundColor>16</SelectedBackgroundColor>
+                <SelectedTextColor>7</SelectedTextColor>
+                <ShowBorder>True</ShowBorder>
+                <ShowScrollArrows>True</ShowScrollArrows>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>20</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>155</Width>
+                <ZOrder>1</ZOrder>
+              </GUIListBox>
             </Controls>
           </GUIMain>
         </GUIs>
@@ -1215,7 +1349,20 @@
         <HotspotY>7</HotspotY>
         <ID>12</ID>
         <Image>5</Image>
-        <Name>WinSizeD</Name>
+        <Name>WinSizeTL</Name>
+        <StandardMode>False</StandardMode>
+        <View>0</View>
+      </MouseCursor>
+      <MouseCursor>
+        <Animate>False</Animate>
+        <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
+        <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
+        <AnimationDelay>5</AnimationDelay>
+        <HotspotX>7</HotspotX>
+        <HotspotY>7</HotspotY>
+        <ID>13</ID>
+        <Image>6</Image>
+        <Name>WinSizeTR</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
       </MouseCursor>
@@ -1226,7 +1373,7 @@
         <AnimationDelay>5</AnimationDelay>
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
-        <ID>13</ID>
+        <ID>14</ID>
         <Image>2</Image>
         <Name>WinDrag</Name>
         <StandardMode>False</StandardMode>
@@ -1625,6 +1772,22 @@
           <Sprite Slot="5" Width="15" Height="15" ColorDepth="32" Resolution="Real" AlphaChannel="False">
             <Source>
               <FileName>Sprites/cursor_resize_d.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>15</ImportHeight>
+              <ImportWidth>15</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>True</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <TransparentColorIndex>0</TransparentColorIndex>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="6" Width="15" Height="15" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+            <Source>
+              <FileName>Sprites/cursor_resize_d2.png</FileName>
               <OffsetX>0</OffsetX>
               <OffsetY>0</OffsetY>
               <ImportHeight>15</ImportHeight>
