@@ -24,7 +24,7 @@
 #ifndef __MOUSE_DRAGDROP_MODULE__
 #define __MOUSE_DRAGDROP_MODULE__
 
-#define MOUSE_DRAGDROP_VERSION_00_01_03_00
+#define MOUSE_DRAGDROP_VERSION_00_01_04_00
 
 // Comment this line out to completely disable DragDrop during compilation
 #define ENABLE_MOUSE_DRAGDROP
@@ -136,6 +136,10 @@ struct DragDrop
   readonly import static attribute int          ObjectX;
   /// Gets Y coordinate of the dragged object's position
   readonly import static attribute int          ObjectY;
+  /// Gets relative X offset between cursor position and dragged object's position
+  readonly import static attribute int          ObjectHandleX;
+  /// Gets relative Y offset between cursor position and dragged object's position
+  readonly import static attribute int          ObjectHandleY;
   
   /// Notify hook key push down; this does not have to be real keycode
   import static void  HookKeyDown(int user_key = 0, MouseButton mbtn = 0);
