@@ -41,6 +41,11 @@ managed struct Window
     import attribute int MaxHeight;
     import attribute int Padding[]; // use WindowSide as index
     
+    import int  GetRealMinWidth();
+    import int  GetRealMaxWidth();
+    import int  GetRealMinHeight();
+    import int  GetRealMaxHeight();
+    
     import void Focus();
     import void MoveToTop();
     import void UpdateLayout();
